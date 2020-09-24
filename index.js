@@ -24,3 +24,8 @@ function appendKitten(array) {
   array = [...kittens, "Broom"]
   return array
 }
+
+function prependKitten(array) {
+  array = ["Bob", ...kittens]
+  return array
+}
