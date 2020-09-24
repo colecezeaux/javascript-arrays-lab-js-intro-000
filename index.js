@@ -26,6 +26,6 @@ function appendKitten(array) {
 }
 
 function prependKitten(array) {
-  array = ["Bob", ...kittens]
+  array = ["Arnold", ...kittens]
   return array
 }
